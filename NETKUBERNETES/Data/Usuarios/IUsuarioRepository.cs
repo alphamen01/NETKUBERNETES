@@ -6,7 +6,7 @@ namespace NETKUBERNETES.Data.Usuarios
     {
         Task<UsuarioResponseDto> GetUsuario();
 
-        Task<UsuarioResponseDto> Login(UsuarioLoginRequestDto);
+        Task<UsuarioResponseDto> Login(UsuarioLoginRequestDto usuarioLoginRequestDto);
 
         Task<UsuarioResponseDto> RegistroUsuario(UsuarioRegistroRequestDto usuarioRegistroRequestDto);
     }
